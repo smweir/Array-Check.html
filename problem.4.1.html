@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  problem 4.1
+</body>
+<script>
+    
+function sumArray(x){
+    if(x === [] && x === ""){
+        console.log("There is a non-numeric value in the way")
+    }
+    if(x !== []){
+        console.log("input is not an array")
+    }
+    else{
+       return x
+    }
+}
+var a1 = "abcd";
+console.log(sumArray(a1));
+var out1 = sumArray(a1);
+console.log(sumArray(a1));
+console.log(out1);
+var a2 = [1,2,3,"p",4,5];
+console.log(a2);
+var out2 = sumArray(a2);
+console.log(out2);
+var a3 = [100,200,300]
+console.log(a3)
+var out3 = sumArray(a3);
+console.log(out3);
+
+
+</script>
+</html>
